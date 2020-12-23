@@ -1,0 +1,287 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    min-width:1060px;
+    font-size:1.8rem;
+    line-height:1.6;
+    font-family:Roboto, Avenir, sans-serif;
+}
+html{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+.header {
+    background-color: #0c4b33;
+    color: #fff;
+    height: 72px;
+    padding: 15px 0 4px;
+    position: relative;
+}
+.hero-section{
+    text-align: center;
+    padding: 50px 0 50px 0;
+    border-bottom: 1px solid #cfe3dc;
+}
+.main-content{
+    float: left;
+    width: 70%;
+    padding-right: 20px;
+}
+.main-title{
+    font-weight: 400;
+    margin: 40px 0 20px;
+    font-size: 3.2rem;
+    letter-spacing: -1px;
+}
+.main-desc{
+    margin: 0 0 20px 0;
+}
+.mailing-layout{
+    padding-top: 20px;
+}
+.mailing:first-child{
+    margin-right: 4%;
+}
+.mailing{
+    float: left;
+    width: 48%;
+}
+.mailing-title > a, .mailing-desc > a{
+    color: #20aa76;
+}
+.mailing-title > a:hover, .mailing-desc > a:hover{
+    color: #25c488;
+}
+.mailing-title{
+    margin: 0 0 20px 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.mailing-desc{
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.3;
+}
+.mailing-form{
+    position: relative;
+    margin: 10px 0 30px;
+}
+/*id = input-following*/
+input[type="email"]{
+    width: 100%;
+    border: 1px solid #c9f0dd;
+    border-radius: 5px;
+    height: 5rem;
+    padding: 6px 80px 8px 10px;
+}
+.mailing-form-btn{
+    position: absolute;
+    bottom: 30%;
+    right: 1rem;
+    border:0;
+    color: #44B78B;
+    background: transparent;
+    cursor: pointer;
+}
+.mailing-form-btn:hover{
+    color: black;
+}
+.mailing-desc{
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.3;
+}
+.side-content{
+    float: right;
+    width: 30%;
+    margin: 0;
+    padding: 0 0 30px 20px;
+    border-left: 1px solid #cfe3dc;
+}
+.container-side-cta{
+    text-align: center;
+}
+.side-cta{
+    width: 300px;
+    padding: 16px 24px;
+    margin: 40px auto 0;
+}
+.side-cta em{
+    font-style: normal;
+    color: #c9f0dd;
+}
+.more{
+    display: block;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #20aa76;
+    text-transform: uppercase;
+}
+.more:hover{
+    color: #25c488;
+}
+.infos{
+    margin-bottom: 40px;
+}
+.infos-title{
+    font-size: 1.8rem;
+    font-weight: 400;
+    border-bottom:1px solid #cfe3dc ;
+    margin: 35px 0 0 0;
+    padding-bottom: 10px;
+}
+.news-article{
+    padding: 20px 0;
+}
+.news-title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.news-title >a{
+    color: #20aa76 ;
+}
+.news-title >a:hover{
+    color: #25c488;
+}
+.news-desc{
+    margin:15px 0;
+    font-size: 1.5rem;
+}
+.news-meta{
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: #859d94;
+}
+.news-meta >span{
+    font-weight: 700;
+}
+.list-communities{
+    padding: 20px 0;
+    margin: 0;
+}
+.community-title{
+    font-size: 1.4rem;
+}
+.community-title > a{
+    color: #20aa76;
+}
+.community-title >a:hover{
+    color: #25c488;
+}
+.community-desc{
+    margin: 10px 0 0 0;
+    font-size: 1.4rem;
+    color: #859d94;
+}
+.community-title:nth-child(n+2){
+    margin-top: 14px;
+}
+
+.container, .container-float {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    /*border-top: 1px solid #cfe3dc;*/
+
+}
+.container-float::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.intro-desc{
+    font-size: 3.6rem;
+    margin: 40px auto 50px;
+    font-weight: 300;
+    line-height: 1.3;
+    width: 700px;
+}
+.hero-cta{
+    padding: 20px 50px;
+    margin: 0 auto 60px;
+    width: 300px;
+}
+.cta{
+    background: #44B78B;
+    border-radius: 10px;
+    display: block;
+    font-weight: 400;
+    color: white;
+}
+.cta:hover{
+    background: #25c488;
+}
+.cta.side-cta:hover{
+    color:white;
+}
+.logo {
+    margin: 0;
+    padding-left: inherit;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.nav{
+    text-align: right;
+}
+.meta{
+    color: #44B78B;
+    font-size: 13px;
+    position: absolute;
+    width: 200px;
+    top: 25px;
+    left: 150px;
+}
+.list {
+    margin: 0px;
+    font-size:0;
+}
+.list-item {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size:1.3rem;
+}
+.list-item >a{
+    color: white;
+    display: block;
+    padding: 10px;
+}
+.list-item >a:hover{
+    color: #c9f0dd;
+}
+.main{
+    display: block;
+}
+.column1{
+    position: relative;
+}
+.heart-link {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.footer{
+    background: #0c4b33;
+    padding: 10px 0 30px 0;
+    display: block;
+}
+.footer a {
+    color: inherit;
+}
+.copyright{
+    font-size: 1.2rem;
+    color: #2b8c67;
+}
+.copyright>a{
+    text-decoration: underline;
+}
